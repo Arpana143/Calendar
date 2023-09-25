@@ -1,0 +1,17 @@
+.calendar {
+  background-color: gray;
+  color: white;
+  width: 100%;
+}
+.weekdays {
+  display: flex;
+  justify-content: space-around;
+}
+.dates {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+.date-number.highlighted {
+  background-color: white;
+  color: grey;
+}
